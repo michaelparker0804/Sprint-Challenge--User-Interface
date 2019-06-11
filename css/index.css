@@ -66,6 +66,28 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+}
+
+header nav {
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,10 +123,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +265,84 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* CSS for About page begins here */
+
+.top-content-about {
+    width: 750px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.middle-content-about {
+    border-top: black dotted 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.middle-content-about .box {
+    width: 350px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: black dotted 1px;
+    margin-bottom: 20px;
+}
+
+.middle-content-about .box img {
+    margin-bottom: 10px;
+}
+
+.middle-content-about .box button {
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    background: white;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.bottom-section-about {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+/* CSS for Contact page begins here */
+
+.container-contact-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+@keyframes color-change {
+    from {color: lightgray;}
+    to {color: black;}
+}
+
+.container-contact-page .contact-info{
+    text-align: center;
+    margin: 40px 0px;
+    animation-name: color-change;
+    animation-duration: 5s;
+}
+
+.container-contact-page .contact-info p{
+    margin-bottom: 10px;
+}
+
+.contact-form h2{
+    text-align: center;
+}
+
+form {
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
